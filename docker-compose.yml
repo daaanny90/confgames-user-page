@@ -1,0 +1,7 @@
+services:
+  user_page:
+    image: nginx
+    ports:
+      - 8000:80
+    volumes:
+      - ./public:/usr/share/nginx/html

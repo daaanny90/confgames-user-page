@@ -1,0 +1,17 @@
+cg-station {
+  display: flex;
+  width: 10rem;
+  height: 8rem;
+  border: 2px solid black;
+  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+cg-station .station-logo {
+  max-width: 6rem;
+}
+
+cg-station.played {
+  opacity: 0.3;
+}
